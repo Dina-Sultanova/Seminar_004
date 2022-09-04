@@ -3,10 +3,7 @@
 // 2, 4 -> 16
 // Не использовать Math.Pow() и аналоги. Решаем строго через цикл
 
-Console.WriteLine ("Введите число A: ");
-int A = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine ("Введите число B: ");
+Console.WriteLine ("Введите число A: ");a
 int B = Convert.ToInt32(Console.ReadLine());
 int res = 1;
 
