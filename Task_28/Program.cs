@@ -6,9 +6,17 @@ Console.WriteLine ("Введите число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 int fact = 1;
+
+if (N >= 1)
+{
 for (int i = 1; i <= N; i++)
 {
     fact = fact * i;
 
 }
 Console.WriteLine ($"Факториал N равен {fact}");
+}
+else
+{
+    Console.WriteLine ("Введено некорректное число");
+}
